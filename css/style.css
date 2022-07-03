@@ -265,6 +265,8 @@ ul {
   width: 100%;
   max-width: 102px;
   transition: all 0.25s;
+  color: #000000;
+  padding: 0;
 }
 .footer-block .sub-form button:hover {
   background-color: #ff5200;
@@ -1025,6 +1027,8 @@ ul {
   font-weight: 400;
   font-size: 16px;
   color: #979797;
+  box-shadow: none !important;
+  outline: none;
 }
 .homepage-wrapper .contact-block .dropdown .dropdown-toggle::after {
   display: none;
@@ -1046,7 +1050,6 @@ ul {
 .homepage-wrapper .contact-block .agency-list {
   margin-top: 8px;
   border: 1px solid #979797;
-  border-right: none;
   border-radius: 8px;
   padding: 28px 24px;
   max-height: 340px;
@@ -1899,6 +1902,9 @@ ul {
   }
   .homepage-wrapper .service-block .accordion .accordion-button span {
     gap: 4px;
+  }
+  .homepage-wrapper .service-block .accordion .accordion-body {
+    padding: 0 16px;
   }
   .homepage-wrapper .contact-block {
     padding-bottom: 60px;

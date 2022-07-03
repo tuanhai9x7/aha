@@ -258,6 +258,8 @@ ul {
       width: 100%;
       max-width: 102px;
       transition: all 0.25s;
+      color: #000000;
+      padding: 0;
       &:hover {
         background-color: #ff5200;
         border-color: #ff5200;
@@ -1054,6 +1056,8 @@ ul {
         font-weight: 400;
         font-size: 16px;
         color: #979797;
+        box-shadow: none !important;
+        outline: none;
         &::after {
           display: none;
         }
@@ -1078,7 +1082,6 @@ ul {
     .agency-list {
       margin-top: 8px;
       border: 1px solid #979797;
-      border-right: none;
       border-radius: 8px;
       padding: 28px 24px;
       max-height: 340px;
@@ -2011,6 +2014,9 @@ ul {
           span {
             gap: 4px;
           }
+        }
+        .accordion-body {
+          padding: 0 16px;
         }
       }
     }
