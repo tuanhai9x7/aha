@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- INTER FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BS5  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- MAIN CSS  -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Aha Express</title>
+  </head>
+  <body>
+    <div class="homepage-wrapper">
+      <header class="header-block">
+        <div class="container">
+          <div class="header-container">
+            <div class="menu-toggle">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <a href="./index.html" class="header-logo">
+              <img srcset="./img/header-logo.png 2x" alt="" />
+            </a>
+            <div class="menu-list">
+              <div class="menu-item active">
+                <a href="./index.html" class="menu-link">TRANG CHỦ</a>
+              </div>
+              <div class="menu-item">
+                <a href="./about.html" class="menu-link">GIỚI THIỆU</a>
+              </div>
+              <div class="menu-item">
+                <a href="#!" class="menu-link">THEO DÕI ĐƠN HÀNG</a>
+              </div>
+              <div class="menu-item">
+                <a href="#!" class="menu-link">DỊCH VỤ</a>
+              </div>
+              <div class="menu-item">
+                <a href="./contact.html" class="menu-link">LIÊN HỆ</a>
+              </div>
+              <div class="menu-item menu-auth">
+                <a href="#!" class="menu-link">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10 10.8333C7.69881 10.8333 5.83333 8.96785 5.83333 6.66667C5.83333 4.36548 7.69881 2.5 10 2.5C12.3012 2.5 14.1667 4.36548 14.1667 6.66667C14.1667 8.96785 12.3012 10.8333 10 10.8333Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10 13.3333C14.2857 13.3333 16.7857 14.7222 17.5 17.5H2.5C3.21429 14.7222 5.71429 13.3333 10 13.3333Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <span>ĐĂNG KÝ/ĐĂNG NHẬP</span>
+                </a>
+              </div>
+            </div>
+            <div class="language-group">
+              <a href="#!">
+                <img srcset="./img/vietnam.png 2x" alt="" />
+              </a>
+              <a href="#!">
+                <img srcset="./img/eng.png 2x" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="search-box">
+        <div class="container">
+          <div class="search-item">
+            <input type="text" placeholder="Tìm kiếm tại đây..." />
+            <button>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.625 15.75C12.56 15.75 15.75 12.56 15.75 8.625C15.75 4.68997 12.56 1.5 8.625 1.5C4.68997 1.5 1.5 4.68997 1.5 8.625C1.5 12.56 4.68997 15.75 8.625 15.75Z"
+                  stroke="#979797"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16.5 16.5L15 15"
+                  stroke="#979797"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <section class="hero-block">
+        <div class="hero-swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="hero-item swiper-slide">
+              <div class="hero-main">
+                <div class="hero-img">
+                  <img srcset="./img/hero-img.png 2x" alt="" />
+                </div>
+                <div class="hero-content">
+                  <h2 class="title">AHA EXPRESS QUỐC TẾ</h2>
+                  <div class="desc">
+                    Aha Express là công ty chuyên cung cấp các giải pháp chuyển
+                    phát nhanh hàng đầu uy tín, chuyên nghiệp, nhiều ưu đãi tại
+                    Việt Nam và Quốc tế
+                  </div>
+                  <a href="#!" class="btn btn-orange contact-btn">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.37341 3.66348C3.40788 3.48507 3.55975 3.35152 3.74397 3.33761L8.19636 3.00153C8.62929 2.96885 9.01279 3.27429 9.06997 3.69734L9.59949 7.61445C9.63303 7.86258 9.54708 8.11191 9.367 8.28891L7.62454 10.0015C7.30505 10.3155 7.30505 10.8246 7.62454 11.1386L13.0352 16.4565C13.3546 16.7705 13.8726 16.7705 14.1921 16.4565L15.9577 14.7211C16.1246 14.5571 16.3553 14.4719 16.5907 14.4874L20.2372 14.7267C20.6701 14.7552 21.0052 15.1108 21.0007 15.5372L20.9519 20.2473C20.9499 20.4393 20.8101 20.6031 20.618 20.6384C15.8265 21.5183 10.6765 20.9404 6.87187 17.201C3.06134 13.4558 2.46314 8.37537 3.37341 3.66348Z"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <span>Hotline: 0123 456 789 </span>
+                  </a>
+                </div>
+              </div>
+              <div class="hero-bg">
+                <img srcset="./img/hero-bg.jpg 2x" alt="" />
+              </div>
+            </div>
+            <div class="hero-item swiper-slide">
+              <div class="hero-main">
+                <div class="hero-img">
+                  <img srcset="./img/hero-img.png 2x" alt="" />
+                </div>
+                <div class="hero-content">
+                  <h2 class="title">AHA EXPRESS QUỐC TẾ</h2>
+                  <div class="desc">
+                    Aha Express là công ty chuyên cung cấp các giải pháp chuyển
+                    phát nhanh hàng đầu uy tín, chuyên nghiệp, nhiều ưu đãi tại
+                    Việt Nam và Quốc tế
+                  </div>
+                  <a href="#!" class="btn btn-orange contact-btn">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.37341 3.66348C3.40788 3.48507 3.55975 3.35152 3.74397 3.33761L8.19636 3.00153C8.62929 2.96885 9.01279 3.27429 9.06997 3.69734L9.59949 7.61445C9.63303 7.86258 9.54708 8.11191 9.367 8.28891L7.62454 10.0015C7.30505 10.3155 7.30505 10.8246 7.62454 11.1386L13.0352 16.4565C13.3546 16.7705 13.8726 16.7705 14.1921 16.4565L15.9577 14.7211C16.1246 14.5571 16.3553 14.4719 16.5907 14.4874L20.2372 14.7267C20.6701 14.7552 21.0052 15.1108 21.0007 15.5372L20.9519 20.2473C20.9499 20.4393 20.8101 20.6031 20.618 20.6384C15.8265 21.5183 10.6765 20.9404 6.87187 17.201C3.06134 13.4558 2.46314 8.37537 3.37341 3.66348Z"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <span>Hotline: 0123 456 789 </span>
+                  </a>
+                </div>
+              </div>
+              <div class="hero-bg">
+                <img srcset="./img/hero-bg.jpg 2x" alt="" />
+              </div>
+            </div>
+            <div class="hero-item swiper-slide">
+              <div class="hero-main">
+                <div class="hero-img">
+                  <img srcset="./img/hero-img.png 2x" alt="" />
+                </div>
+                <div class="hero-content">
+                  <h2 class="title">AHA EXPRESS QUỐC TẾ</h2>
+                  <div class="desc">
+                    Aha Express là công ty chuyên cung cấp các giải pháp chuyển
+                    phát nhanh hàng đầu uy tín, chuyên nghiệp, nhiều ưu đãi tại
+                    Việt Nam và Quốc tế
+                  </div>
+                  <a href="#!" class="btn btn-orange contact-btn">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.37341 3.66348C3.40788 3.48507 3.55975 3.35152 3.74397 3.33761L8.19636 3.00153C8.62929 2.96885 9.01279 3.27429 9.06997 3.69734L9.59949 7.61445C9.63303 7.86258 9.54708 8.11191 9.367 8.28891L7.62454 10.0015C7.30505 10.3155 7.30505 10.8246 7.62454 11.1386L13.0352 16.4565C13.3546 16.7705 13.8726 16.7705 14.1921 16.4565L15.9577 14.7211C16.1246 14.5571 16.3553 14.4719 16.5907 14.4874L20.2372 14.7267C20.6701 14.7552 21.0052 15.1108 21.0007 15.5372L20.9519 20.2473C20.9499 20.4393 20.8101 20.6031 20.618 20.6384C15.8265 21.5183 10.6765 20.9404 6.87187 17.201C3.06134 13.4558 2.46314 8.37537 3.37341 3.66348Z"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <span>Hotline: 0123 456 789 </span>
+                  </a>
+                </div>
+              </div>
+              <div class="hero-bg">
+                <img srcset="./img/hero-bg.jpg 2x" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-nav">
+            <div class="swiper-button-prev hero-swiper-button-prev">
+              <svg
+                width="21"
+                height="16"
+                viewBox="0 0 21 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                  fill="#979797"
+                />
+              </svg>
+            </div>
+            <div class="swiper-button-next hero-swiper-button-next">
+              <svg
+                width="21"
+                height="16"
+                viewBox="0 0 21 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                  fill="#979797"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="swiper-pagination hero-swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="about-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">VỀ CHÚNG TÔI</h2>
+          </div>
+          <div class="about-main">
+            <div class="img">
+              <img srcset="./img/about-img.jpg 2x" alt="" />
+            </div>
+            <div class="content">
+              <div class="desc">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries t has
+                  survived not only five centuries t has survived not only five
+                  centuries
+                </p>
+              </div>
+              <a href="#!" class="btn btn-blue more-btn">Xem thêm</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="commitment-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">CAM KẾT TẠI AHA EXPRESS</h2>
+          </div>
+          <div class="commitment-swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="commitment-item swiper-slide">
+                <div class="img">
+                  <img srcset="./img/commit1.jpg 2x" alt="" />
+                </div>
+                <div class="content">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
+                </div>
+              </div>
+              <div class="commitment-item swiper-slide">
+                <div class="img">
+                  <img srcset="./img/commit2.jpg 2x" alt="" />
+                </div>
+                <div class="content">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
+                </div>
+              </div>
+              <div class="commitment-item swiper-slide">
+                <div class="img">
+                  <img srcset="./img/commit3.jpg 2x" alt="" />
+                </div>
+                <div class="content">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination commitment-swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">QUY TRÌNH VẬN CHUYỂN TẠI AHA EXPRESS</h2>
+          </div>
+          <div class="process-main">
+            <span class="arrow arrow-desk">
+              <svg
+                width="1198"
+                height="384"
+                viewBox="0 0 1198 384"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M112.242 51L351.369 23.18L581.717 3.93512C613.069 1.31576 644.578 1.16638 675.954 3.48836L942.033 23.18L1054.53 45.3639C1110.58 56.4167 1157.82 93.8938 1181.34 145.958L1183.82 151.442C1192.51 170.679 1197 191.546 1197 212.654V212.654C1197 281.958 1149.12 342.074 1081.58 357.586L1000.43 376.222C977.954 381.383 954.88 383.451 931.847 382.367L594.584 366.506L375.779 380.328C337.115 382.77 298.304 381.462 259.892 376.422L31 346.387"
+                  stroke="#FF5200"
+                  stroke-opacity="0.7"
+                  stroke-width="2"
+                  stroke-dasharray="4 4"
+                />
+                <g clip-path="url(#clip0_701_707)">
+                  <path
+                    d="M4.12434 339.773L35.1967 333.083L26.8085 345.244L28.7314 359.891L4.12434 339.773Z"
+                    stroke="#FF5200"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.12434 339.773L26.8085 345.244"
+                    stroke="#FF5200"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_701_707">
+                    <rect
+                      width="36"
+                      height="36"
+                      fill="white"
+                      transform="matrix(-0.521624 -0.853175 0.853176 -0.521623 18.7784 369.493)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+            <span class="arrow arrow-mb">
+              <svg
+                width="296"
+                height="755"
+                viewBox="0 0 296 755"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M281.5 695L271.285 701.78C240.691 722.086 206.614 736.575 170.764 744.522L140.985 751.122C132.374 753.031 123.531 753.673 114.735 753.028L58.6689 748.92C33.9117 747.106 16.371 723.969 21.3097 699.641V699.641C23.9412 686.679 32.6375 675.768 44.6869 670.312L69.0432 659.282C75.3284 656.436 81.9094 654.295 88.6659 652.897L174.517 635.135C178.165 634.38 181.74 633.305 185.2 631.923L213.298 620.702C246.774 607.332 252.856 562.549 224.158 540.736V540.736"
+                  stroke="#FF5200"
+                  stroke-opacity="0.7"
+                  stroke-width="2"
+                  stroke-dasharray="4 4"
+                />
+                <path
+                  d="M1 34.7556L5.39959 31.9542C14.9581 25.8679 25.1173 20.7809 35.7167 16.7735V16.7735C49.8238 11.4401 64.5947 8.06292 79.6178 6.73617L125.218 2.70904C138.091 1.5722 151.042 1.64849 163.9 2.93691L204.182 6.97313C215.684 8.12565 226.643 12.4381 235.846 19.4331V19.4331C263.886 40.7457 268.853 80.9767 246.838 108.469L239.112 118.117C236.131 121.841 232.799 125.271 229.163 128.359L226.616 130.523C205.187 148.725 177.578 157.989 149.507 156.395L101.267 153.657C74.8163 152.155 50.2266 168.109 40.4326 192.725V192.725C36.0275 203.797 34.9737 216.083 37.5183 227.724V227.724C43.1415 253.449 64.9427 272.461 91.194 274.531L198.566 283"
+                  stroke="#FF5200"
+                  stroke-opacity="0.7"
+                  stroke-width="2"
+                  stroke-dasharray="4 4"
+                />
+                <path
+                  d="M146.57 281L206.182 286.973C217.684 288.126 228.643 292.438 237.846 299.433V299.433C265.886 320.746 270.853 360.977 248.838 388.469L241.112 398.117C238.13 401.841 234.799 405.27 231.163 408.359L228.616 410.523C207.187 428.725 179.578 437.989 151.507 436.395L103.267 433.657C76.8163 432.155 52.3715 447.744 42.5775 472.361L41.6796 474.618C37.7263 484.554 36.8342 495.445 39.1178 505.892V505.892C44.7896 531.84 68.6018 549.726 95.1024 547.943L117.082 546.465C121.685 546.156 126.253 545.444 130.732 544.339L199 527.5"
+                  stroke="#FF5200"
+                  stroke-opacity="0.7"
+                  stroke-width="2"
+                  stroke-dasharray="4 4"
+                />
+                <path
+                  d="M293.894 684.294L286.599 700.374L283.947 692.607L276.774 688.619L293.894 684.294Z"
+                  stroke="#FF5200"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M293.894 684.293L283.947 692.607"
+                  stroke="#FF5200"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <div class="row">
+              <div class="process-item">
+                <div class="step">Bước 1</div>
+                <div class="img">
+                  <img srcset="./img/process1.jpg 2x" alt="" />
+                </div>
+                <div class="content">Tiếp nhận yêu cầu</div>
+              </div>
+              <div class="process-item">
+                <div class="step">Bước 2</div>
+                <div class="img">
+                  <img srcset="./img/process2.jpg 2x" alt="" />
+                </div>
+                <div class="content">Tư vấn báo giá</div>
+              </div>
+              <div class="process-item">
+                <div class="step">Bước 3</div>
+                <div class="img">
+                  <img srcset="./img/process3.jpg 2x" alt="" />
+                </div>
+                <div class="content">Nhận kiểm hàng</div>
+              </div>
+              <div class="process-item">
+                <div class="step">Bước 4</div>
+                <div class="img">
+                  <img srcset="./img/process4.jpg 2x" alt="" />
+                </div>
+                <div class="content">Đóng gói dán nhãn</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="process-item">
+                <div class="step">Bước 5</div>
+                <div class="img">
+                  <img srcset="./img/process7.jpg 2x" alt="" />
+                </div>
+                <div class="content">Kê khai hải quan</div>
+              </div>
+              <div class="process-item">
+                <div class="step">Bước 6</div>
+                <div class="img">
+                  <img srcset="./img/process6.jpg 2x" alt="" />
+                </div>
+                <div class="content">Gửi hàng hãng bay</div>
+              </div>
+              <div class="process-item">
+                <div class="step">Bước 7</div>
+                <div class="img">
+                  <img srcset="./img/process5.jpg 2x" alt="" />
+                </div>
+                <div class="content">
+                  Tracking Online<br />
+                  Cập nhật 24/7
+                </div>
+              </div>
+              <div class="process-item process-item--end">
+                <div class="step">Kết thúc quy trình</div>
+              </div>
+            </div>
+          </div>
+          <a href="#!" class="btn btn-orange contact-btn"
+            >Liên hệ với chúng tôi</a
+          >
+        </div>
+      </section>
+
+      <section class="customer-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">KHÁCH HÀNG NÓI GÌ VỀ AHA EXPRESS</h2>
+          </div>
+        </div>
+        <div class="customer-main">
+          <div class="customer-inner">
+            <div class="container">
+              <div class="customer-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="customer-item swiper-slide">
+                    <div class="content">
+                      <span class="quote quote-left">“</span>
+                      <span class="quote quote-right">”</span>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500
+                      </p>
+                    </div>
+                    <div class="info">
+                      <div class="author">
+                        <div class="avatar">
+                          <img srcset="./img/customer1.jpg 2x" alt="" />
+                        </div>
+                        <span class="name">Kristin Watson</span>
+                      </div>
+                      <div class="rating">
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="customer-item swiper-slide">
+                    <div class="content">
+                      <span class="quote quote-left">“</span>
+                      <span class="quote quote-right">”</span>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500
+                      </p>
+                    </div>
+                    <div class="info">
+                      <div class="author">
+                        <div class="avatar">
+                          <img srcset="./img/customer1.jpg 2x" alt="" />
+                        </div>
+                        <span class="name">Kristin Watson</span>
+                      </div>
+                      <div class="rating">
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="customer-item swiper-slide">
+                    <div class="content">
+                      <span class="quote quote-left">“</span>
+                      <span class="quote quote-right">”</span>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500
+                      </p>
+                    </div>
+                    <div class="info">
+                      <div class="author">
+                        <div class="avatar">
+                          <img srcset="./img/customer1.jpg 2x" alt="" />
+                        </div>
+                        <span class="name">Kristin Watson</span>
+                      </div>
+                      <div class="rating">
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="customer-item swiper-slide">
+                    <div class="content">
+                      <span class="quote quote-left">“</span>
+                      <span class="quote quote-right">”</span>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500
+                      </p>
+                    </div>
+                    <div class="info">
+                      <div class="author">
+                        <div class="avatar">
+                          <img srcset="./img/customer1.jpg 2x" alt="" />
+                        </div>
+                        <span class="name">Kristin Watson</span>
+                      </div>
+                      <div class="rating">
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="customer-item swiper-slide">
+                    <div class="content">
+                      <span class="quote quote-left">“</span>
+                      <span class="quote quote-right">”</span>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500
+                      </p>
+                    </div>
+                    <div class="info">
+                      <div class="author">
+                        <div class="avatar">
+                          <img srcset="./img/customer1.jpg 2x" alt="" />
+                        </div>
+                        <span class="name">Kristin Watson</span>
+                      </div>
+                      <div class="rating">
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                        <svg
+                          width="16"
+                          height="15"
+                          viewBox="0 0 16 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                            fill="#FFEF5D"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev customer-swiper-button-prev">
+                  <svg
+                    width="21"
+                    height="16"
+                    viewBox="0 0 21 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                </div>
+                <div class="swiper-button-next customer-swiper-button-next">
+                  <svg
+                    width="21"
+                    height="16"
+                    viewBox="0 0 21 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">DỊCH VỤ TẠI AHA EXPRESS</h2>
+          </div>
+          <div class="service-main">
+            <div class="service-img">
+              <div class="img">
+                <img srcset="./img/service-img.jpg 2x" alt="" />
+              </div>
+            </div>
+            <div class="accordion accordion-flush" id="serviceAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="service-flush-heading1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-flush-collapse1"
+                    aria-expanded="false"
+                    aria-controls="service-flush-collapse1"
+                  >
+                    <span>Gửi hàng đi Mỹ</span>
+                    <svg
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.54577 12.564H11.1412V17.1594C11.1412 17.6265 11.5254 18.0182 12 18.0182C12.4746 18.0182 12.8588 17.6265 12.8588 17.1594V12.564H17.4542C17.9213 12.564 18.3131 12.1798 18.3131 11.7051C18.3131 11.2305 17.9213 10.8463 17.4542 10.8463H12.8588V6.25091C12.8588 5.78383 12.4746 5.39209 12 5.39209C11.5254 5.39209 11.1412 5.78383 11.1412 6.25091V10.8463H6.54577C6.07869 10.8463 5.68695 11.2305 5.68695 11.7051C5.68695 12.1798 6.07869 12.564 6.54577 12.564Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </h2>
+                <div
+                  id="service-flush-collapse1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="service-flush-heading1"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing
+                      andtypesetting industry. Lorem Ipsum has been the
+                      industry's
+                    </p>
+                    <a href="#!" class="btn btn-blue more-btn">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="service-flush-heading2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-flush-collapse2"
+                    aria-expanded="false"
+                    aria-controls="service-flush-collapse2"
+                  >
+                    <span>Gửi hàng đi Canada</span>
+                    <svg
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.54577 12.564H11.1412V17.1594C11.1412 17.6265 11.5254 18.0182 12 18.0182C12.4746 18.0182 12.8588 17.6265 12.8588 17.1594V12.564H17.4542C17.9213 12.564 18.3131 12.1798 18.3131 11.7051C18.3131 11.2305 17.9213 10.8463 17.4542 10.8463H12.8588V6.25091C12.8588 5.78383 12.4746 5.39209 12 5.39209C11.5254 5.39209 11.1412 5.78383 11.1412 6.25091V10.8463H6.54577C6.07869 10.8463 5.68695 11.2305 5.68695 11.7051C5.68695 12.1798 6.07869 12.564 6.54577 12.564Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </h2>
+                <div
+                  id="service-flush-collapse2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="service-flush-heading2"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing
+                      andtypesetting industry. Lorem Ipsum has been the
+                      industry's
+                    </p>
+                    <a href="#!" class="btn btn-blue more-btn">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="service-flush-heading3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-flush-collapse3"
+                    aria-expanded="false"
+                    aria-controls="service-flush-collapse3"
+                  >
+                    <span>Gửi hàng đi Úc</span>
+                    <svg
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.54577 12.564H11.1412V17.1594C11.1412 17.6265 11.5254 18.0182 12 18.0182C12.4746 18.0182 12.8588 17.6265 12.8588 17.1594V12.564H17.4542C17.9213 12.564 18.3131 12.1798 18.3131 11.7051C18.3131 11.2305 17.9213 10.8463 17.4542 10.8463H12.8588V6.25091C12.8588 5.78383 12.4746 5.39209 12 5.39209C11.5254 5.39209 11.1412 5.78383 11.1412 6.25091V10.8463H6.54577C6.07869 10.8463 5.68695 11.2305 5.68695 11.7051C5.68695 12.1798 6.07869 12.564 6.54577 12.564Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </h2>
+                <div
+                  id="service-flush-collapse3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="service-flush-heading3"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing
+                      andtypesetting industry. Lorem Ipsum has been the
+                      industry's
+                    </p>
+                    <a href="#!" class="btn btn-blue more-btn">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="service-flush-heading4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-flush-collapse4"
+                    aria-expanded="false"
+                    aria-controls="service-flush-collapse4"
+                  >
+                    <span>Gửi hàng đi nước ngoài</span>
+                    <svg
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.54577 12.564H11.1412V17.1594C11.1412 17.6265 11.5254 18.0182 12 18.0182C12.4746 18.0182 12.8588 17.6265 12.8588 17.1594V12.564H17.4542C17.9213 12.564 18.3131 12.1798 18.3131 11.7051C18.3131 11.2305 17.9213 10.8463 17.4542 10.8463H12.8588V6.25091C12.8588 5.78383 12.4746 5.39209 12 5.39209C11.5254 5.39209 11.1412 5.78383 11.1412 6.25091V10.8463H6.54577C6.07869 10.8463 5.68695 11.2305 5.68695 11.7051C5.68695 12.1798 6.07869 12.564 6.54577 12.564Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </h2>
+                <div
+                  id="service-flush-collapse4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="service-flush-heading4"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing
+                      andtypesetting industry. Lorem Ipsum has been the
+                      industry's
+                    </p>
+                    <a href="#!" class="btn btn-blue more-btn">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="service-flush-heading5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-flush-collapse5"
+                    aria-expanded="false"
+                    aria-controls="service-flush-collapse5"
+                  >
+                    <span>
+                      <svg
+                        width="39"
+                        height="20"
+                        viewBox="0 0 39 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M7.5 0.847412C3.35787 0.847412 0 4.20528 0 8.34741C0 12.4895 3.35786 15.8474 7.49999 15.8474H27.2929C27.2826 16.7959 27.0802 17.8518 26.476 19.0812C28.3029 19.5798 30.7359 17.4406 32.3027 15.6475C35.6122 14.8675 38.0754 11.8951 38.0754 8.34741C38.0754 4.20528 34.7175 0.847412 30.5754 0.847412H7.5Z"
+                          fill="#FF5200"
+                        />
+                        <path
+                          d="M13.6351 12.8474L11.2376 6.52905H11.1986C11.2116 6.66252 11.223 6.82528 11.2327 7.01733C11.2425 7.20939 11.2506 7.41935 11.2572 7.64722C11.2637 7.87183 11.2669 8.10132 11.2669 8.33569V12.8474H10.4954V5.70874H11.7259L13.9867 11.6462H14.0208L16.3158 5.70874H17.5365V12.8474H16.7161V8.2771C16.7161 8.06551 16.7194 7.85392 16.7259 7.64233C16.7324 7.42749 16.7406 7.22567 16.7503 7.03687C16.7601 6.84481 16.7699 6.67879 16.7796 6.53882H16.7406L14.3138 12.8474H13.6351ZM23.9818 10.1619C23.9818 10.7478 23.8809 11.2491 23.679 11.6658C23.4805 12.0792 23.1956 12.3966 22.8245 12.6179C22.4567 12.836 22.0173 12.9451 21.5062 12.9451C21.0309 12.9451 20.6094 12.836 20.2415 12.6179C19.8737 12.3966 19.5856 12.0792 19.3773 11.6658C19.1722 11.2491 19.0697 10.7478 19.0697 10.1619C19.0697 9.28296 19.2894 8.60262 19.7288 8.12085C20.1715 7.63908 20.7754 7.39819 21.5404 7.39819C21.8952 7.39819 22.2191 7.45841 22.512 7.57886C22.8083 7.6993 23.0622 7.8702 23.2738 8.09155C23.4658 8.0297 23.6107 7.93368 23.7083 7.80347C23.806 7.67 23.8711 7.50724 23.9036 7.31519C23.9362 7.12313 23.9525 6.90991 23.9525 6.67554H24.8118L24.8802 6.77808C24.8281 7.08407 24.7516 7.35588 24.6507 7.59351C24.5498 7.83114 24.4163 8.03296 24.2503 8.19897C24.0876 8.36499 23.8825 8.4952 23.6351 8.5896C23.7458 8.80119 23.8304 9.03882 23.889 9.30249C23.9508 9.56616 23.9818 9.85262 23.9818 10.1619ZM19.9095 10.1619C19.9095 10.6176 19.9648 11.0033 20.0755 11.3191C20.1895 11.6316 20.3652 11.8692 20.6029 12.032C20.8437 12.1915 21.1514 12.2712 21.5257 12.2712C21.9033 12.2712 22.2109 12.1899 22.4486 12.0271C22.6862 11.8643 22.8604 11.6267 22.971 11.3142C23.085 10.9985 23.1419 10.6143 23.1419 10.1619C23.1419 9.71265 23.085 9.33341 22.971 9.02417C22.8604 8.71493 22.6862 8.48055 22.4486 8.32104C22.2109 8.16154 21.9017 8.08179 21.5208 8.08179C20.9609 8.08179 20.5524 8.2592 20.2952 8.61401C20.0381 8.96558 19.9095 9.48153 19.9095 10.1619ZM22.9417 5.18628V5.28394C22.8766 5.37834 22.7871 5.49227 22.6732 5.62573C22.5625 5.75594 22.4388 5.89429 22.3021 6.04077C22.1654 6.184 22.027 6.32072 21.887 6.45093C21.7503 6.58114 21.6234 6.69344 21.5062 6.78784H20.9642V6.67065C21.0684 6.54696 21.1823 6.39884 21.306 6.22632C21.4297 6.05054 21.5501 5.8715 21.6673 5.68921C21.7845 5.50366 21.8822 5.33602 21.9603 5.18628H22.9417ZM26.2913 7.49585V12.8474H25.4808V7.49585H26.2913ZM25.8958 5.4939C26.0293 5.4939 26.1432 5.53784 26.2376 5.62573C26.3353 5.71037 26.3841 5.84383 26.3841 6.02612C26.3841 6.20516 26.3353 6.33862 26.2376 6.42651C26.1432 6.5144 26.0293 6.55835 25.8958 6.55835C25.7559 6.55835 25.6387 6.5144 25.5443 6.42651C25.4531 6.33862 25.4076 6.20516 25.4076 6.02612C25.4076 5.84383 25.4531 5.71037 25.5443 5.62573C25.6387 5.53784 25.7559 5.4939 25.8958 5.4939Z"
+                          fill="white"
+                        />
+                      </svg>
+
+                      Gửi hàng khó đi nước ngoài</span
+                    >
+                    <svg
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.54577 12.564H11.1412V17.1594C11.1412 17.6265 11.5254 18.0182 12 18.0182C12.4746 18.0182 12.8588 17.6265 12.8588 17.1594V12.564H17.4542C17.9213 12.564 18.3131 12.1798 18.3131 11.7051C18.3131 11.2305 17.9213 10.8463 17.4542 10.8463H12.8588V6.25091C12.8588 5.78383 12.4746 5.39209 12 5.39209C11.5254 5.39209 11.1412 5.78383 11.1412 6.25091V10.8463H6.54577C6.07869 10.8463 5.68695 11.2305 5.68695 11.7051C5.68695 12.1798 6.07869 12.564 6.54577 12.564Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </h2>
+                <div
+                  id="service-flush-collapse5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="service-flush-heading5"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing
+                      andtypesetting industry. Lorem Ipsum has been the
+                      industry's
+                    </p>
+                    <a href="#!" class="btn btn-blue more-btn">Xem thêm</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">TIN TỨC</h2>
+          </div>
+          <div class="news-container">
+            <div class="news-main">
+              <h3 class="title">
+                <a href="#!">Trọng lượng Thể Tích là gì ?</a>
+              </h3>
+              <div class="info">
+                <div class="info-item">
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.89289 15.1713C8.89289 15.1713 0.857178 7.72233 0.857178 5.07738C0.857178 2.26121 2.32671 0.898682 5.37727 0.898682C6.88396 0.898682 8.89289 3.20112 8.89289 3.20112C8.89289 3.20112 10.9018 0.898682 12.4085 0.898682C15.4591 0.898682 16.9286 2.26032 16.9286 5.07738C16.9286 7.72233 8.89289 15.1713 8.89289 15.1713Z"
+                      fill="#C31815"
+                    />
+                  </svg>
+                  <span>28</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    width="13"
+                    height="16"
+                    viewBox="0 0 13 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11.2857 15.1713H1.46428C0.970534 15.1713 0.571426 14.7725 0.571426 14.2801V5.35886C0.571426 4.86646 0.970534 4.46683 1.46428 4.46683H2.80357V5.35886H1.91071C1.66428 5.35886 1.46428 5.55957 1.46428 5.80488V13.8332C1.46428 14.0803 1.66428 14.2801 1.91071 14.2801H10.8393C11.0848 14.2801 11.2857 14.0803 11.2857 13.8332V5.80488C11.2857 5.55957 11.0848 5.35886 10.8393 5.35886H9.94643V4.46683H11.2857C11.7786 4.46683 12.1786 4.86646 12.1786 5.35886V14.2801C12.1786 14.7725 11.7786 15.1713 11.2857 15.1713ZM8.30894 3.89319L6.82143 2.40704V11.1571C6.82143 11.4033 6.62053 11.6031 6.375 11.6031C6.12857 11.6031 5.92857 11.4033 5.92857 11.1571V2.40704L4.44018 3.89319C4.27054 4.06357 3.9937 4.06357 3.82406 3.89319C3.65441 3.72459 3.65441 3.4472 3.82406 3.27861L6.0295 1.07432C6.03217 1.07075 6.0375 1.06907 6.04018 1.0655C6.05 1.05391 6.04646 1.03692 6.05718 1.02532C6.07414 1.00927 6.09818 1.01462 6.11603 1.00213C6.18211 0.948606 6.25888 0.912004 6.34906 0.90576C6.3562 0.90576 6.36254 0.901295 6.36879 0.901295C6.37146 0.901295 6.37319 0.898682 6.37587 0.898682C6.37855 0.898682 6.38038 0.900403 6.38306 0.901295C6.38842 0.900403 6.39198 0.904017 6.39734 0.904017C6.50359 0.90937 6.59996 0.951253 6.67407 1.01726C6.68032 1.02351 6.69018 1.02084 6.69554 1.02619C6.7009 1.03333 6.69823 1.04316 6.70448 1.04852C6.70805 1.05208 6.70712 1.05919 6.71069 1.06365L8.92681 3.27861C9.09735 3.4472 9.09735 3.72459 8.92681 3.89319C8.75538 4.06446 8.47948 4.06446 8.30894 3.89319Z"
+                      fill="#2A2A2A"
+                    />
+                  </svg>
+                  <span>72</span>
+                </div>
+                <div class="info-item">
+                  <svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M5.39286 11.6031L0.928574 15.1713V1.79173C0.928574 1.29851 1.3284 0.898682 1.82162 0.898682H8.9641C9.45731 0.898682 9.85714 1.29851 9.85714 1.79173V15.1713L5.39286 11.6031ZM8.96429 2.68376C8.96429 2.19055 8.56446 1.79072 8.07124 1.79072H2.71448C2.22126 1.79072 1.82143 2.19055 1.82143 2.68376V13.3872L5.39286 10.2651L8.96429 13.3872V2.68376Z"
+                      fill="#2A2A2A"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="img">
+                <a href="#!">
+                  <img srcset="./img/news-img.jpg 2x" alt="" />
+                </a>
+              </div>
+              <div class="content">
+                g lượng theo thể tích, còn được gọi là trọng lượng theo kích
+                thước thùng hàng , lượng theo thể tích, còn được gọi là trọng
+                lượng theo kích thước thùng hàng .g lượng theo thể tích, còn
+                được gọi là trọng lượng theo kích thước thùng hàng .
+              </div>
+            </div>
+            <div class="news-more">
+              <div class="news-item">
+                <h4 class="title">
+                  <a href="#!">Tốn nhiều thời gian ?</a>
+                </h4>
+                <span class="time">3 giờ trước</span>
+                <div class="content">
+                  Mất nhiều thời gian để tìm hiểu nơi gửi hàng mà không giải
+                  quyết được vấn đề ? Mất nhiều thời gian để tìm hiểu nơi gửi
+                  hàng mà không giải quyết được vấn đề ?
+                </div>
+              </div>
+              <div class="news-item">
+                <h4 class="title">
+                  <a href="#!">Tốn nhiều thời gian ?</a>
+                </h4>
+                <span class="time">3 giờ trước</span>
+                <div class="content">
+                  Mất nhiều thời gian để tìm hiểu nơi gửi hàng mà không giải
+                  quyết được vấn đề ? Mất nhiều thời gian để tìm hiểu nơi gửi
+                  hàng mà không giải quyết được vấn đề ?
+                </div>
+              </div>
+              <div class="news-item">
+                <h4 class="title">
+                  <a href="#!">Tốn nhiều thời gian ?</a>
+                </h4>
+                <span class="time">3 giờ trước</span>
+                <div class="content">
+                  Mất nhiều thời gian để tìm hiểu nơi gửi hàng mà không giải
+                  quyết được vấn đề ? Mất nhiều thời gian để tìm hiểu nơi gửi
+                  hàng mà không giải quyết được vấn đề ?
+                </div>
+              </div>
+            </div>
+            <div class="news-slide">
+              <div class="news-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="news-img swiper-slide">
+                    <a href="#!">
+                      <img srcset="./img/news-slide.jpg 2x" alt="" />
+                    </a>
+                  </div>
+                  <div class="news-img swiper-slide">
+                    <a href="#!">
+                      <img srcset="./img/news-slide.jpg 2x" alt="" />
+                    </a>
+                  </div>
+                  <div class="news-img swiper-slide">
+                    <a href="#!">
+                      <img srcset="./img/news-slide.jpg 2x" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-pagination news-swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+          </div>
+          <div class="contact-main">
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.029588678619!2d106.64611141533432!3d10.80904566154515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752941380153cb%3A0xe5c4418217fcd1cf!2zMjcwIEhvw6BuZyBIb2EgVGjDoW0sIFBoxrDhu51uZyAxMywgVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1656839026358!5m2!1svi!2s"
+                width="600"
+                height="530"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="contact-agency">
+              <div class="form-search">
+                <div class="dropdown">
+                  <button
+                    class="dropdown-toggle"
+                    type="button"
+                    id="contactDropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span>Chọn Tỉnh/Thành phố</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.99847 7.00146L12.0006 17.0026L21.0027 7.00146"
+                        stroke="#C4C4C4"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="contactDropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Hà Nội</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Hồ Chí Minh</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Đồng Nai</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button
+                    class="dropdown-toggle"
+                    type="button"
+                    id="contactDropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span>Chọn Quận/Huyện</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.99847 7.00146L12.0006 17.0026L21.0027 7.00146"
+                        stroke="#C4C4C4"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="contactDropdownMenuButton2"
+                  >
+                    <li><a class="dropdown-item" href="#">Hai Bà Trung</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Thanh Nhàn</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Cầu Giấy</a>
+                    </li>
+                  </ul>
+                </div>
+                <a href="#!" class="btn btn-orange search-btn">Tìm kiếm</a>
+              </div>
+              <div class="agency-list">
+                <div class="agency-item">
+                  <h4 class="title">Bưu cục Tp. Hồ Chí Minh</h4>
+                  <div class="address">
+                    270 Hoàng Hoa Thám, P. 12, Q. Tân Bình, TP. HCM
+                  </div>
+                  <div class="phone">HOTLINE: 0978 518 976 – 0932 86 5859</div>
+                </div>
+                <div class="agency-item">
+                  <h4 class="title">Bưu Cục Đồng Nai</h4>
+                  <div class="address">
+                    270 Hoàng Hoa Thám, P. 12, Q. Tân Bình, TP. HCM
+                  </div>
+                  <div class="phone">HOTLINE: 0978 518 976 – 0932 86 5859</div>
+                </div>
+                <div class="agency-item">
+                  <h4 class="title">Bưu cục Tp. Hồ Chí Minh</h4>
+                  <div class="address">
+                    270 Hoàng Hoa Thám, P. 12, Q. Tân Bình, TP. HCM
+                  </div>
+                  <div class="phone">HOTLINE: 0978 518 976 – 0932 86 5859</div>
+                </div>
+                <div class="agency-item">
+                  <h4 class="title">Bưu cục Tp. Hồ Chí Minh</h4>
+                  <div class="address">
+                    270 Hoàng Hoa Thám, P. 12, Q. Tân Bình, TP. HCM
+                  </div>
+                  <div class="phone">HOTLINE: 0978 518 976 – 0932 86 5859</div>
+                </div>
+                <div class="agency-item">
+                  <h4 class="title">Bưu cục Tp. Hồ Chí Minh</h4>
+                  <div class="address">
+                    270 Hoàng Hoa Thám, P. 12, Q. Tân Bình, TP. HCM
+                  </div>
+                  <div class="phone">HOTLINE: 0978 518 976 – 0932 86 5859</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-block">
+        <div class="footer-container">
+          <div class="footer-main">
+            <div class="footer-col">
+              <a href="./index.html" class="footer-logo">
+                <img srcset="./img/footer-logo.png 2x" alt="" />
+              </a>
+              <div class="desc">
+                Theo dõi để nhận những ưu đãi mới nhất của Aha Express
+              </div>
+              <div class="sub-form">
+                <input type="email" placeholder="Nhập email của bạn" />
+                <button type="submit">Theo dõi</button>
+              </div>
+              <div class="social-list">
+                <a href="#!" class="social-item">
+                  <svg
+                    width="20"
+                    height="36"
+                    viewBox="0 0 20 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.8485 1.47998H13.8898C11.698 1.47998 9.59586 2.35795 8.04597 3.92076C6.49608 5.48356 5.62536 7.60318 5.62536 9.81331V14.8133H0.666687V21.48H5.62536V34.8133H12.2369V21.48H17.1956L18.8485 14.8133H12.2369V9.81331C12.2369 9.37129 12.4111 8.94736 12.7211 8.6348C13.031 8.32224 13.4515 8.14665 13.8898 8.14665H18.8485V1.47998Z"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="#!" class="social-item"
+                  ><svg
+                    width="34"
+                    height="33"
+                    viewBox="0 0 34 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.22392 1.02148C5.16522 1.02148 1.875 4.31171 1.875 8.3704V24.0682C1.875 28.1269 5.16522 31.4171 9.22392 31.4171H24.9217C28.9804 31.4171 32.2707 28.1269 32.2707 24.0682V8.3704C32.2707 4.31171 28.9804 1.02148 24.9217 1.02148H9.22392ZM0.875 8.3704C0.875 3.75942 4.61294 0.0214844 9.22392 0.0214844H24.9217C29.5327 0.0214844 33.2707 3.75942 33.2707 8.3704V24.0682C33.2707 28.6792 29.5327 32.4171 24.9217 32.4171H9.22392C4.61294 32.4171 0.875 28.6792 0.875 24.0682V8.3704ZM17.9887 10.4345C16.7863 10.2562 15.5582 10.4616 14.4793 11.0214C13.4003 11.5813 12.5254 12.4671 11.9789 13.5529C11.4324 14.6386 11.2421 15.8691 11.4352 17.0692C11.6284 18.2694 12.195 19.378 13.0545 20.2376C13.9141 21.0971 15.0227 21.6637 16.2229 21.8568C17.423 22.05 18.6534 21.8597 19.7392 21.3132C20.825 20.7667 21.7108 19.8918 22.2707 18.8128C22.8305 17.7338 23.0359 16.5058 22.8576 15.3034C22.6757 14.0769 22.1042 12.9414 21.2274 12.0646C20.3507 11.1879 19.2152 10.6164 17.9887 10.4345ZM14.0187 10.1338C15.2844 9.47706 16.7249 9.23614 18.1354 9.4453C19.5741 9.65865 20.9061 10.3291 21.9346 11.3575C22.963 12.386 23.6334 13.718 23.8468 15.1567C24.0559 16.5672 23.815 18.0077 23.1583 19.2734C22.5016 20.539 21.4625 21.5654 20.1888 22.2065C18.9151 22.8475 17.4718 23.0707 16.064 22.8441C14.6562 22.6176 13.3557 21.9529 12.3474 20.9447C11.3391 19.9364 10.6745 18.6359 10.4479 17.2281C10.2214 15.8203 10.4446 14.3769 11.0856 13.1033C11.7267 11.8296 12.7531 10.7905 14.0187 10.1338ZM25.7066 7.08553C25.4305 7.08553 25.2066 7.30938 25.2066 7.58553C25.2066 7.86167 25.4305 8.08553 25.7066 8.08553H25.7246C26.0008 8.08553 26.2246 7.86167 26.2246 7.58553C26.2246 7.30938 26.0008 7.08553 25.7246 7.08553H25.7066Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+                <a href="#!" class="social-item">
+                  <svg
+                    width="36"
+                    height="35"
+                    viewBox="0 0 36 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M34.5833 0.562988L15.8333 19.313"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M34.5833 0.562988L22.9167 33.8963L16.25 18.8963L1.25 12.2297L34.5833 0.562988Z"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="footer-col my-xl-5">
+              <div class="download-box">
+                <a href="#!">tải app aha express ngay</a>
+                <div class="desc">
+                  Tải App Aha Express để có thể theo dõi đơn hàng mọi lúc, mọi
+                  nơi
+                </div>
+              </div>
+              <div class="link-list">
+                <div>
+                  <h4 class="title">Dịch vụ</h4>
+                  <div>
+                    <a href="#!">Gửi hàng đi Mỹ</a>
+                    <a href="#!">Gửi hàng đi Canada</a>
+                    <a href="#!">Gửi hàng đi nước ngoài</a>
+                    <a href="#!">Gửi hàng khó đi nước ngoài</a>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="title">Thông tin</h4>
+                  <div>
+                    <a href="#!">Về chúng tôi</a>
+                    <a href="#!">Chăm sóc khách hàng</a>
+                    <a href="#!">Câu hỏi thường gặp</a>
+                    <a href="#!">Đội ngũ</a>
+                    <a href="#!">Liên hệ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-col img">
+              <img srcset="./img/footer-img.png 2x" alt="" />
+            </div>
+          </div>
+          <div class="copy-right">© 2021 All Rights Reserved</div>
+        </div>
+      </footer>
+
+      <div class="menu-mb">
+        <span class="close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.97675 22.0001C2.78357 22.0002 2.59473 21.9429 2.4341 21.8356C2.27347 21.7283 2.14828 21.5758 2.07435 21.3973C2.00042 21.2188 1.98108 21.0225 2.01877 20.833C2.05647 20.6435 2.14951 20.4695 2.28612 20.3329L20.333 2.28607C20.5162 2.1029 20.7646 2 21.0236 2C21.2827 2 21.5311 2.1029 21.7143 2.28607C21.8974 2.46923 22.0003 2.71766 22.0003 2.97669C22.0003 3.23573 21.8974 3.48415 21.7143 3.66732L3.66737 21.7142C3.57676 21.805 3.4691 21.877 3.35059 21.9261C3.23207 21.9751 3.10502 22.0003 2.97675 22.0001Z"
+              fill="#000"
+            ></path>
+            <path
+              d="M21.0236 22.0001C20.8953 22.0003 20.7683 21.9751 20.6498 21.9261C20.5313 21.877 20.4236 21.805 20.333 21.7142L2.28613 3.66732C2.10296 3.48415 2.00006 3.23573 2.00006 2.97669C2.00006 2.71766 2.10296 2.46923 2.28613 2.28607C2.46929 2.1029 2.71772 2 2.97675 2C3.23579 2 3.48421 2.1029 3.66738 2.28607L21.7142 20.3329C21.8509 20.4695 21.9439 20.6435 21.9816 20.833C22.0193 21.0225 21.9999 21.2188 21.926 21.3973C21.8521 21.5758 21.7269 21.7283 21.5663 21.8356C21.4056 21.9429 21.2168 22.0002 21.0236 22.0001V22.0001Z"
+              fill="#000"
+            ></path>
+          </svg>
+        </span>
+        <div class="menu-item">
+          <a href="./index.html" class="menu-link">Trang chủ</a>
+        </div>
+        <div class="menu-item active">
+          <a href="./about.html" class="menu-link">GIỚI THIỆU</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">THEO DÕI ĐƠN HÀNG</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">DỊCH VỤ</a>
+        </div>
+        <div class="menu-item">
+          <a href="./contact.html" class="menu-link">LIÊN HỆ </a>
+        </div>
+        <div class="language-group">
+          <a href="#!">
+            <img srcset="./img/vietnam.png 2x" alt="" />
+          </a>
+          <a href="#!">
+            <img srcset="./img/eng.png 2x" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- BS5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var heroSwiper = new Swiper(".hero-swiper", {
+        spaceBetween: 8,
+        slidesPerView: "auto",
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".hero-swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".hero-swiper-button-next",
+          prevEl: ".hero-swiper-button-prev",
+        },
+        breakpoints: {
+          768: {
+            spaceBetween: 0,
+          },
+        },
+      });
+      var commitmentSwiper = new Swiper(".commitment-swiper", {
+        spaceBetween: 16,
+        slidesPerView: 2,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".commitment-swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            spaceBetween: 20,
+          },
+          1023: {
+            slidesPerView: 3,
+          },
+        },
+      });
+      var customerSwiper = new Swiper(".customer-swiper", {
+        spaceBetween: 20,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".customer-swiper-button-next",
+          prevEl: ".customer-swiper-button-prev",
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          1280: {
+            slidesPerView: 3,
+          },
+        },
+      });
+      var newsSwiper = new Swiper(".news-swiper", {
+        spaceBetween: 20,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".news-swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <!-- MAIN JS  -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
